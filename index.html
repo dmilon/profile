@@ -8,7 +8,7 @@
 
   <script>
     window.addEventListener('message', event => {
-      if (event.origin.startsWith('localhost')) {
+      if (event.origin.startsWith('http://localhost')) {
         console.log(event)
       } else {
         console.log(`other origin: ${event.origin}`)
