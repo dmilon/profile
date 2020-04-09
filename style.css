@@ -13,12 +13,12 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  color: #575F7D;
+  color: #F51616;
   font-size: 32px;
   font-weight: 900;
 }
 h2 {
-  color: #7ECE90;
+  color: #F51616;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
@@ -26,7 +26,7 @@ h2 {
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  color: #6B72E1;
+  color: #F51616;
   font-weight: 600;
   font-size: 16px;
 }
@@ -73,14 +73,15 @@ a:hover {
   border-radius: 50%;
 }
 .btn-blue {
-  background-color: #6B72E1;
+  background-color: #F51616;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
 }
 .btn-blue:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #F51616;
+  border: 3px solid #F51616;
 }
 .list-inline {
   list-style: none;
@@ -96,7 +97,22 @@ a:hover {
   color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
-  color: black;
+  color: #F51616;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("images/nest-white.png");
+  background-size: cover;
+  background-color: #E6E6E6;
+  padding: 2px;
+}
+
+.logo:hover {
+  background-image: url("images/nest.png");
+  background-color: white;
 }
 
 /* Design adjustments using id (1% design remaining) */
